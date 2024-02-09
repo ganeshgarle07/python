@@ -1,10 +1,10 @@
-# # set does not allow duplicate,unordered, mutable
-# s = {1,2,3,3}
-# print(s)
-# s= set([1,2,3,4])
-# print(s)
-# s = set('Hello')
-# print(s)
+# set does not allow duplicate,unordered, mutable
+s = {1,2,3,3}
+print(s)
+s= set([1,2,3,4])
+print(s)
+s = set('Hello')
+print(s)
 
 # s = set()
 # s.add(1)
